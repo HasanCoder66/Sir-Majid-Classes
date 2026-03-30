@@ -5,7 +5,7 @@
 // console.log(username)
 
 // temporal dead zone == > TDZ
-let username = "hasancoder66"
+// let username = "hasancoder66"
 
 
 
@@ -141,7 +141,7 @@ let lastName = "Hasan"
 
 
 
-let arr = [12, false, "string", 45, true, {name : "hasan"}]
+// let arr = [12, false, "string", 45, true, {name : "hasan"}]
 
 // arr[5].name = "shakoor"
 
@@ -149,5 +149,73 @@ let arr = [12, false, "string", 45, true, {name : "hasan"}]
 
 
 
-console.log(arr.slice(0,2))
+// console.log(arr.slice(0,2))
 // console.log(arr)
+
+
+
+
+
+// higher order methods  || callback functions
+// splice, map, filter, find, findIndex, slice
+// for loop 
+
+
+// let arr = ["hasan", "shakoor", "saleem" ]
+
+// console.log(arr, "Before Splice Array")
+// // console.log(arr.slice(0,1))
+
+// console.log(arr.splice(0,1, "Rehan"))
+
+// console.log(arr, "After Splice Array")
+
+
+
+
+
+
+// function result (cb){
+
+//     cb(56,56)
+// }
+
+
+// function sum(a, b){
+//     console.log(a + b)
+// }
+
+
+
+
+// result(sum)
+
+
+
+// forEach kuch nhi return kerta
+// map return kerta hai 1 array 
+// filter return kerta hai 1 array 
+
+// find return karta hai true condition jabh hogi pehli value 
+
+
+
+let arr = [1,2,3,4,5,6]
+
+
+// arr.forEach((item) => {console.log(item)})
+// let returnMap = arr.map((item) => item + 56)
+
+// console.log(returnMap)
+
+
+// let filterItems = arr.filter((item) => item > 2)
+// console.log(filterItems)
+
+// for (let i = 0 ; i < arr.length; i++){
+//     console.log(arr[i])
+// }
+
+
+let findReturn = arr.find((item) => item === 4)
+console.log(findReturn)
