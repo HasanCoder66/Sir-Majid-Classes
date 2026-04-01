@@ -200,7 +200,7 @@ let lastName = "Hasan"
 
 
 
-let arr = [1,2,3,4,5,6]
+// let arr = [1,2,3,4,5,6]
 
 
 // arr.forEach((item) => {console.log(item)})
@@ -217,5 +217,60 @@ let arr = [1,2,3,4,5,6]
 // }
 
 
-let findReturn = arr.find((item) => item === 4)
-console.log(findReturn)
+// let findReturn = arr.find((item) => item === 4)
+// console.log(findReturn)
+
+
+// let arr = [12,"hasan", true]
+// let arr2 = []
+
+// arr.forEach((item) => {
+//     console.log(item)
+//     arr2.push(item + "kuch bi")
+// })
+
+
+
+// console.log(arr2)
+
+// let mapReturn = arr.map(function (item){
+// return item + "kuch bi"
+// })
+
+// console.log(mapReturn)
+
+
+// let paragraph = "lorem ipsum dolor. lorem ipsum dolor"
+
+// let updatedPara =  paragraph.replace(/dolor/g, "Pkr")
+
+// console.log(updatedPara)
+
+
+
+// let arr = ["50","asdif", "adfa","8"]
+
+// let randomNum = Math.ceil(Math.random() * arr.length)
+// console.log(randomNum)
+
+// console.log(arr[randomNum])
+
+
+
+// let num = 78.989;
+
+// console.log(num.toFixed(1))
+
+// console.log(+num)
+// console.log(Number(num))
+
+// console.log(parseInt(num))
+// console.log(parseFloat(num))
+
+
+
+let days = ["اتوار", "پیر", "منگل", "بدھ"]
+
+let currentDay = new Date().getDay()
+
+console.log(days[currentDay])
